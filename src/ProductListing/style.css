@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 5%;
 
 }
 
@@ -31,9 +32,8 @@
     background: #fff;
     margin: auto;
 }
-
 .header {
-    border-top: .5px solid grey;
+    border-top: .5px solid #d3d3d3;
     width: 100%;
     padding-top: 5%;
     height: 70px;
@@ -42,7 +42,8 @@
 }
 
 .price {
-    height: 20px
+    height: 20px;
+    
 }
 
 .category {

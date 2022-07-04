@@ -4,12 +4,12 @@ import ProductDetails from "../ProductDetails/ProductDetails";
 
 function ProductListing(){
 
-    const [getData,setData]=useState([])   
+    const [getProductData,setProductData]=useState([])   
     async function fetchdetails(){
         try{
             const response= await fetch('https://fakestoreapi.com/products/')
             const data=await response.json()
-            setData(data)
+            setProductData(data)
         }
         catch(e){
             console.log('error has occured')
@@ -23,7 +23,7 @@ useEffect(()=>{
 
 return(
     <div  className="container">
-        <ProductComponent getData={getData}/>
+        <ProductComponent getProductData={getProductData}/>
         
     </div>
 )

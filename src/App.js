@@ -8,14 +8,15 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Routes>
+       <Routes>
           <Route path="/" element={<ProductListing />}></Route>
           <Route path="/product/:productid" element={<ProductDetails />}></Route>
         </Routes>
-
       </Router>
+
     </div>
   );
 }
 
 export default App;
+

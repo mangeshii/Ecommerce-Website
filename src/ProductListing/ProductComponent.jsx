@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 
 const ProductComponent = (props) => {
-    const { getData } = props
+    const { getProductData } = props
 
-    const renderList = getData.map((product, index) => {
+    const renderList = getProductData.map((product, index) => {
         const { id, title, price, image, category } = product
 
         return (
             <div key={index} className="col">
-                <Link className="link" to={`/product/${id}`}>
+                <Link style={{textDecoration:'none',color:"black"}} className="link" to={`/product/${id}`}>
                     {product !== undefined ? (
                         <div className="card" style={{ width: '18rem' }}>
                             <img src={image} className="image card-img-top" alt="..." />
