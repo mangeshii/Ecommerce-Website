@@ -1,6 +1,6 @@
 import { useEffect,useState } from "react";
 import ProductComponent from "./ProductComponent"
-import ProductDetails from "./ProductDetails";
+import ProductDetails from "../ProductDetails/ProductDetails";
 
 function ProductListing(){
 
