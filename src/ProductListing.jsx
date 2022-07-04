@@ -1,5 +1,6 @@
 import { useEffect,useState } from "react";
 import ProductComponent from "./ProductComponent"
+import ProductDetails from "./ProductDetails";
 
 function ProductListing(){
 
@@ -23,6 +24,7 @@ useEffect(()=>{
 return(
     <div  className="container">
         <ProductComponent getData={getData}/>
+        
     </div>
 )
 }

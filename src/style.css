@@ -22,10 +22,9 @@
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
 
 }
-
 .card .image {
     height: 300px;
     padding: 20px;
