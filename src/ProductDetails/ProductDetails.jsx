@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import "./DetailedPageStyling.css"
+import React from 'react';
 
 function ProductDetails() {
     const productid = useParams();

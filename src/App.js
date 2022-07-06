@@ -1,7 +1,8 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProductListing from "./ProductListing/ProductListing";
-import ProductDetails from "./ProductDetails/ProductDetails"
+import ProductDetails from "./ProductDetails/ProductDetails";
+import React from 'react';
 
 function App() {
 
