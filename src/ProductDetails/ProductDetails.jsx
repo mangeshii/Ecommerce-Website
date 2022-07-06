@@ -20,7 +20,7 @@ function ProductDetails() {
 
     }
 
-    useEffect(() => {
+    useEffect(() => { 
         fetchProductDetails(productid)
     }, [productid])
 
